@@ -1,0 +1,42 @@
+# Node
+node_modules/
+dist/
+build/
+
+# Angular
+.angular/
+coverage/
+
+# Rails
+backend/log/
+backend/tmp/
+backend/.env
+backend/.env.*
+backend/vendor/bundle/
+backend/.byebug_history
+backend/.sass-cache/
+backend/public/assets/
+backend/storage/
+
+# System
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Editor
+.vscode/
+.idea/
+*.code-workspace
+
+# Misc
+.env
+.env.*
+*.local
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+Icon?
