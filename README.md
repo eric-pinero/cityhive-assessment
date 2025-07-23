@@ -18,7 +18,7 @@ This project is a full-stack web application with a Rails backend and an Angular
 
 ```
 cityhive-assessment/
-  backend/      # Ruby on Rails API
+  backend/      # Ruby on Rails
   frontend/     # Angular SPA
 ```
 
