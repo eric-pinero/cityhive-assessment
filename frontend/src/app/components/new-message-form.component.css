@@ -63,4 +63,10 @@ button:hover {
   color: #888;
   margin-top: 0.25rem;
   text-align: right;
+}
+.form-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
 } 
