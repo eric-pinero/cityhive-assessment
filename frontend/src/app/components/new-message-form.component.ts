@@ -19,9 +19,13 @@ import { MessageService } from './message.service';
         <textarea id="message" name="message" rows="3" required maxlength="250" [(ngModel)]="messageText"></textarea>
         <div class="char-count">{{ messageText.length }} / 250</div>
       </div>
-      <button type="submit">Send Message</button>
+      <div class="form-actions">
+        <div>
+          <a class="clear-link" (click)="messageForm.resetForm()">Clear fields</a>
+        </div>
+        <button type="submit">Send Message</button>
+      </div>
     </form>
-    <a class="clear-link" (click)="messageForm.resetForm()">Clear fields</a>
     <div *ngIf="successMessage" style="color: green; margin-top: 1rem;">{{ successMessage }}</div>
     <div *ngIf="errorMessage" style="color: red; margin-top: 1rem;">{{ errorMessage }}</div>
   `,
