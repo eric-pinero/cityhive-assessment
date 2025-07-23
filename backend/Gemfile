@@ -39,6 +39,6 @@ group :development, :test do
 end
 
 gem "mongoid", "~> 9.0"
-gem 'twilio-ruby'
+gem "twilio-ruby"
 
 gem "devise", "~> 4.9"
