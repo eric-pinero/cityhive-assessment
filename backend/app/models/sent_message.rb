@@ -6,4 +6,4 @@ class SentMessage
   field :sid, type: String
   field :session_id, type: String
   field :from, type: String
-end 
+end

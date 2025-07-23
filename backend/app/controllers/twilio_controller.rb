@@ -8,7 +8,7 @@ class TwilioController < ApplicationController
 
   # POST /twilio/send_sms
   def send_sms
-    to = params[:phone] || params[:to] || '+18777804236'
+    to = params[:phone] || params[:to] || "+18777804236"
     body = params[:body]
     from = params[:from]
     session_id = session.id.to_s
@@ -29,4 +29,4 @@ class TwilioController < ApplicationController
       body: body
     )
   end
-end 
+end

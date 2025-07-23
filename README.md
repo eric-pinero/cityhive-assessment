@@ -101,12 +101,6 @@ npm install
 ## Development Tips
 - **API Proxy:** The frontend is configured to proxy API requests to the backend during development (see `frontend/proxy.conf.json`).
 - **Hot Reloading:** Both frontend and backend support hot reloading for rapid development.
-- **Testing:**
-  - Backend: Use `rspec` (if tests are present).
-  - Frontend: Use `ng test` (if tests are present).
-- **Linting:**
-  - Backend: `rubocop`
-  - Frontend: `npm run lint`
 
 ---
 
