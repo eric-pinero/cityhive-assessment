@@ -37,7 +37,7 @@ cityhive-assessment/
 
 ### 1. Clone the repository
 ```sh
-git clone <repo-url>
+git clone https://github.com/eric-pinero/cityhive-assessment.git
 cd cityhive-assessment
 ```
 
